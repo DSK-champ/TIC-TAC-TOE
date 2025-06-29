@@ -39,20 +39,20 @@
       line.style.top = '0px';
       line.style.transform = 'none';
     } else if (type === 'diag1') {
-      line.style.width = Math.sqrt(3 * cellSize * cellSize + 2 * 3 * cellSize * gap + 2 * gap * gap) + 'px';
-      line.style.height = '5px';
-      line.style.top = '50%';
-      line.style.left = '0';
-      line.style.transform = 'translateY(-50%) rotate(45deg)';
-      line.style.transformOrigin = 'left center';
+        line.style.width = '438px';
+        line.style.height = '5px';
+        line.style.top = '0';
+        line.style.left = '0';
+        line.style.transform = 'rotate(45deg)';
+        line.style.transformOrigin = 'top left';
     } else if (type === 'diag2') {
-      line.style.width = Math.sqrt(3 * cellSize * cellSize + 2 * 3 * cellSize * gap + 2 * gap * gap) + 'px';
-      line.style.height = '5px';
-      line.style.top = '50%';
-      line.style.right = '0';
-      line.style.left = 'auto';
-      line.style.transform = 'translateY(-50%) rotate(-45deg)';
-      line.style.transformOrigin = 'right center';
+        line.style.width = '438px';
+        line.style.height = '5px';
+        line.style.top = '0';
+        line.style.right = '0';
+        line.style.left = 'auto';
+        line.style.transform = 'rotate(-45deg)';
+        line.style.transformOrigin = 'top right';
     }
 
     boardDiv.appendChild(line);
