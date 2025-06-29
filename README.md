@@ -41,3 +41,6 @@ Practical AI logic for turn-based games
 DOM manipulation and dynamic UI updates
 
 Clean separation of HTML, CSS, and JS in a real-world project
+
+# PLAY HERE
+https://dsk-ttt.netlify.app/
